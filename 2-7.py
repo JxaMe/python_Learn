@@ -5,14 +5,11 @@
 
 # 打印这个人名,以显示其开头和末尾的空白,然后,分别使用剔除函数,lstrip(),rstrip()和strip(),对人名进行处理,并将结果打印出来.
 
-# name = " \t胖胖\n  \n"
-#
-# print(name)
-#
-# print(name.lstrip())
-#
-# print(name.rstrip())
-#
-# print(name.strip())
+name = " \t胖胖\n  \n"
+
+print(name)
+print(name.lstrip())
+print(name.rstrip())
+print(name.strip())
 
 
