@@ -7,3 +7,15 @@
 - 遍历这个列表。
 - 在循环中使用一个 if-elif-else 结构，以打印每个数字对应的序数。输出内容应为 1st、2nd、3rd、4th、5th、6th、7th、8th 和 9th，但每个序数都独占一行。
 '''
+
+number = list(range(1, 10))
+for i in number:
+    i = str(i)
+    if i == '1':
+        print(i + 'st')
+    elif i == '2':
+        print(i + 'nd')
+    elif i == '3':
+        print(i + 'rd')
+    else:
+        print(i + 'th')

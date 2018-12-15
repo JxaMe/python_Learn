@@ -7,3 +7,14 @@
 - 将该列表命名为 favorite_fruits，并在其中包含三种水果。
 - 编写 5 条 if 语句，每条都检查某种水果是否包含在列表中，如果包含在列表中， 就打印一条消息，如“You really like bananas!”。
 '''
+
+favorite_fruits = ['apple', 'orange', 'banana']
+
+if 'apple' in favorite_fruits:
+    print("You really like bananas!")
+if 'orange' in favorite_fruits:
+    print("You really like bananas!")
+if 'chestnut' in favorite_fruits:
+    print("You really like bananas!")
+if 'banana' in favorite_fruits:
+    print("You really like bananas!")
