@@ -38,6 +38,7 @@ while active:
             print("收费15美元")
 '''
 
+# 无用,脑短路,暂想不出
 msg = ''
 while msg != 'quit':
     msg = input("请输入你的年龄:")
