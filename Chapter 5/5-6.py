@@ -11,3 +11,18 @@
 - 如果一个人的年龄为 20（含）～65 岁，就打印一条消息，指出他是成年人。
 - 如果一个人的年龄超过 65（含）岁，就打印一条消息，指出他是老年人。
 '''
+
+age = 65
+
+if age < 2:
+    print('你还是个婴儿')
+elif (age >= 2) and (age < 4):
+    print('你正蹒跚学步')
+elif (age >= 4) and (age < 13):
+    print('你还是个儿童')
+elif (age >= 13) and (age < 20):
+    print('你是个青少年')
+elif (age >= 20) and (age < 65):
+    print('你是个成年人了')
+else:
+    print('你肯定是个老年人')
