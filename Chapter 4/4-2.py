@@ -5,3 +5,15 @@
 - 修改这个程序，使其针对每种动物都打印一个句子，如“A dog would make a great pet”。
 - 在程序末尾添加一行代码，指出这些动物的共同之处，如打印诸如“Any of these animals would make a great pet!”这样的句子
 '''
+
+animals = ['Wolf','Tiger','Flat head brother','Lion']
+
+for animal in animals:
+    print(animal)
+
+for animal in animals:
+    print(animal+',is very NB')
+
+for animal in animals:
+    print(animal + ',is very NB')
+print('Flat head brother is the most NB ')
