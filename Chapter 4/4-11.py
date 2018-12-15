@@ -8,3 +8,16 @@
   再使用一个 for 循环来打印第一个列表；打印消息“My friend’s favorite pizzas are:”，
   再使用一个 for 循环来打印第二个列表。核实新增的比萨被添加到了正确的列表中。
 '''
+
+pizzas = ['Romana', 'Napoletana', 'Siciliana']
+
+friend_pizzas = pizzas[:]
+
+pizzas.append('Turkey')
+friend_pizzas.append('potato')
+
+for pizza in pizzas:
+    print('My friend’s favorite pizzas are:'+pizza)
+
+for pizza in friend_pizzas:
+    print(pizza)
