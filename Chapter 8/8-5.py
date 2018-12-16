@@ -6,3 +6,11 @@
 这个函数应打印一个简单的句子，如 Reykjavik is in Iceland。
 给用于存储国家的形参指定默认值。为三座不同的城市调用这个函数，且其中至少有一座城市不属于默认国家。
 '''
+
+
+def describe_city(city, country='中国'):
+    print(city + ' 是 ' + country + '的.')
+
+describe_city('台湾')
+describe_city('香港')
+describe_city("苍井空")

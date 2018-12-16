@@ -6,3 +6,9 @@
 Python”的大号 T 恤。调用这个函数来制作如下 T 恤：
 一件印有默认字样的大号 T 恤、一件印有默认字样的中号 T 恤和一件印有其他字样的 T 恤（尺码无关紧要）
 '''
+
+
+def make_shirt(size='大号', typeface='I love Python'):
+    print('T恤的尺码是:' + size + '\n', '字样是:' + typeface)
+
+make_shirt()
