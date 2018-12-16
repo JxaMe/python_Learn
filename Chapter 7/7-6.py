@@ -42,10 +42,11 @@ while active:
 msg = ''
 while msg != 'quit':
     msg = input("请输入你的年龄:")
-    msg = int(msg)
-    if msg < 3:
-        print("免费")
-    elif msg >= 3 and msg <= 12:
-        print('收费10美元')
-    else:
-        print("收费15美元")
+    if msg.isdigit():
+        msg = int(msg)
+        if msg < 3:
+            print("免费")
+        elif msg >= 3 and msg <= 12:
+            print('收费10美元')
+        else:
+            print("收费15美元")
